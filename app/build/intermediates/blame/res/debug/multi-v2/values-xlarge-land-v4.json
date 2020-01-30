@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dennis/nNoteAS_mobi/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "/home/dennis/nNoteAS_mobi/app/src/main/res/values-xlarge-land/ambilwarna.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "101,52,151",
+                        "endColumns": "49,48,47",
+                        "endOffsets": "149,99,197"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,160",
+                        "endColumns": "52,51,50",
+                        "endOffsets": "103,155,206"
+                    }
+                }
+            ]
+        }
+    ]
+}

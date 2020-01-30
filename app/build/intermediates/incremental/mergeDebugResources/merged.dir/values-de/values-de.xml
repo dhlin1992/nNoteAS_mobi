@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="dlg_aspect_entries">
+        <item>Bildschirm Hochformat</item>
+        <item>Bildschirm Querformat</item>
+        <item>A4 Papier</item>
+        <item>US Letter</item>
+        <item>US Legal</item>
+        <item>Projektor (4:3)</item>
+        <item>HDTV (16:9)</item>
+    </string-array>
+    <string-array name="dlg_thickness_entries">
+        <item>Einzelner Pixel</item>
+        <item>Ultra-fein</item>
+        <item>Fein</item>
+        <item>Mittel</item>
+        <item>Breit</item>
+        <item>Extra</item>
+    </string-array>
+    <string-array name="export_file_format">
+        <item>Aktuelle Seite als Bild (PNG)</item>
+        <item>Aktuelle Seite als Vektor Grafik (PDF)</item>
+        <item>Ausgewählte Seiten als Vektor Grafik (PDF)</item>
+        <item>Gesamtes Notizbuch als Vektor Grafik (PDF)</item>
+        <item>Gesamtes Notizbuch als nNote Backup Archiv</item>
+    </string-array>
+    <string-array name="export_size_raster">
+        <item>1920 x 1080 pixel (HDTV)</item>
+        <item>1280 x 800 pixel</item>
+        <item>1024 x 768 pixel (Projektor)</item>
+        <item>800 x 600 pixel</item>
+    </string-array>
+    <string-array name="export_size_vector">
+        <item>A4 Papier (210 × 297mm)</item>
+        <item>US Letter (8.5 x 11in)</item>
+        <item>US Legal (8.5 x 14in)</item>
+    </string-array>
+    <string-array name="export_via_entries">
+        <item>Andere Android App verwenden</item>
+        <item>Evernote</item>
+        <item>Ordner auswählen</item>
+        <item>Externe SD karte</item>
+        <item>Interner Speicher</item>
+        <item>USB Speicherriegel</item>
+    </string-array>
+    <string-array name="preferences_override_pen_type_entries">
+        <item>Automatisch</item>
+        <item>Kapazitiver Stift</item>
+        <item>Thinkpad Tablet Stift</item>
+        <item>Samsung Note S-pen</item>
+        <item>Magic Left Alt Hack</item>
+        <item>Android ICS (4.0) Stift API</item>
+    </string-array>
+    <string-array name="preferences_pen_input_mode_entries">
+        <item>Finger herausfiltern beim schreiben</item>
+        <item>Finger herausfiltern, aber Gesten zulassen</item>
+        <item>Alles schreibt auf den Bildschirm</item>
+    </string-array>
+    <string-array name="toolbox_thickness">
+        <item>Ultra-fein</item>
+        <item>Fein</item>
+        <item>Mittel</item>
+        <item>Breit</item>
+        <item>Extra</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="activity_base_backed_up">nNote Sicherheitskopie angefertigt.</string>
+    <string name="changelog_full_title">Änderungen</string>
+    <string name="changelog_title">Was ist neu</string>
+    <string name="command_clear_page">Seite Nummer  %1$d gelöscht</string>
+    <string name="command_create_graphics">Strich auf Seite %1$d hinzugefügt</string>
+    <string name="command_erase_graphics">Strich auf Seite %1$d gelöscht</string>
+    <string name="command_page_erase">Seite Nummer %1$d gelöscht</string>
+    <string name="command_page_insert">Seite Nummer %1$d eingefügt</string>
+    <string name="delete_notebook_message">Notizbuch löschen, sind Sie sich sicher?</string>
+    <string name="dlg_aspect_title">Seitenverhältnis</string>
+    <string name="dlg_background_entry_COLLEGERULED">Liniert 7.1mm (College ruled)</string>
+    <string name="dlg_background_entry_CORNELLNOTES">Cornell Notes</string>
+    <string name="dlg_background_entry_DAYPLANNER">Kalender</string>
+    <string name="dlg_background_entry_EMPTY">Leeres Blatt</string>
+    <string name="dlg_background_entry_MUSIC">Musik</string>
+    <string name="dlg_background_entry_NARROWRULED">Liniert 6.3mm (Narrow ruled)</string>
+    <string name="dlg_background_entry_QUADPAPER">Kariert</string>
+    <string name="dlg_background_entry_RULED">Liniert 8.7mm (Legal ruled)</string>
+    <string name="dlg_background_title">Papier</string>
+    <string name="dlg_thickness_title">Stiftbreite</string>
+    <string name="edit_notebook_delete">Löschen</string>
+    <string name="edit_notebook_export">Export</string>
+    <string name="edit_notebook_header">Beschreibung:</string>
+    <string name="edit_notebook_title">Notizen editieren</string>
+    <string name="edit_notebook_title_new">Neues Notizbuch</string>
+    <string name="edit_tag_header">Tag:</string>
+    <string name="edit_tag_help">Namen löschen entfernt Tag</string>
+    <string name="edit_tag_title">Tag editieren</string>
+    <string name="export_background">Inklusive Hintergrund</string>
+    <string name="export_button_text">Exportieren</string>
+    <string name="export_err_cannot_create_file">Kann die Datei nicht erstellen</string>
+    <string name="export_err_cannot_write_file">Kann die Datei nicht speichern</string>
+    <string name="export_err_no_way_to_share">Kann nirgends hin senden</string>
+    <string name="export_err_path_does_not_exist">Pfad existiert nicht</string>
+    <string name="export_evernote_cancel_message">Export an Evernote abgebrochen</string>
+    <string name="export_evernote_download_question">Vom Android Marktplatz herunterladen?</string>
+    <string name="export_evernote_err_cannot_close">Kann die Datei  %1$s nicht schließen </string>
+    <string name="export_evernote_err_cannot_write">Kann die Datei %1$s nicht speichern</string>
+    <string name="export_evernote_err_no_cache_dir">Kann den Cache-Ordner nicht öffnen</string>
+    <string name="export_evernote_err_not_found">Sie müssen zuerst die Evernote app installieren</string>
+    <string name="export_evernote_message">Komprimiere Seiten …</string>
+    <string name="export_evernote_title">An Evernote senden</string>
+    <string name="export_file_format_header">Dateiformat:</string>
+    <string name="export_filename_default">Dateiname.pdf</string>
+    <string name="export_name_header">Name:</string>
+    <string name="export_pick_destination_directory">Zielordner auswählen</string>
+    <string name="export_saved_as">Gespeichert als</string>
+    <string name="export_share_title">Seite exportieren an</string>
+    <string name="export_size_header">Größe:</string>
+    <string name="export_via_header">Datei senden an:</string>
+    <string name="export_view_file_title">Exportierte Datei ansehen mit</string>
+    <string name="hide_bar_failed_hide">Kann die Systemleiste nicht abschalten (Sind Sie root?)</string>
+    <string name="hide_bar_failed_show">Kann die Systemleiste nicht zeigen (Sind Sie root?)</string>
+    <string name="image_editor_aspect_checkbox_label">Seitenverhältnis 1:1 festlegen</string>
+    <string name="image_editor_erase">Entfernen</string>
+    <string name="image_editor_err_no_photo">Kamera hat kein Bild aufgenommen!</string>
+    <string name="image_editor_err_no_such_image">Kein solches Bild!</string>
+    <string name="image_editor_err_permissions">Bild existiert nicht, oder unzureichende Berechtigung!</string>
+    <string name="image_editor_resolution">Auflösung</string>
+    <string name="image_editor_source_image">Ursprungsbild</string>
+    <string name="image_editor_source_uri">Ursprungs URI</string>
+    <string name="image_editor_title">Bild auswählen</string>
+    <string name="menu_image_cropped">Bilder beschneiden</string>
+    <string name="menu_image_cropped_condensed">Beschneiden</string>
+    <string name="menu_image_photo">Photo aufnehmen</string>
+    <string name="menu_image_photo_condensed">Photo</string>
+    <string name="menu_image_pick">Bild auswählen</string>
+    <string name="menu_image_pick_condensed">Galerie</string>
+    <string name="menu_quill_about">Über nNote</string>
+    <string name="menu_quill_color">Stiftfarbe</string>
+    <string name="menu_quill_eraser">Radieren</string>
+    <string name="menu_quill_export">Exportieren</string>
+    <string name="menu_quill_fountain_pen">Federhalter</string>
+    <string name="menu_quill_image">Bilder</string>
+    <string name="menu_quill_move">Verschieben / Zoom</string>
+    <string name="menu_quill_next">Nächste Seite</string>
+    <string name="menu_quill_next_condensed">Zurück</string>
+    <string name="menu_quill_page_aspect">Seitenverhältnis</string>
+    <string name="menu_quill_page_clear">Löschen</string>
+    <string name="menu_quill_page_delete">Entfernen</string>
+    <string name="menu_quill_page_duplicate">Verdoppeln</string>
+    <string name="menu_quill_page_group">Seite</string>
+    <string name="menu_quill_page_insert">Einfügen</string>
+    <string name="menu_quill_page_last">Letzte</string>
+    <string name="menu_quill_page_next">Weiter</string>
+    <string name="menu_quill_page_prev">Zurück</string>
+    <string name="menu_quill_page_readonly">Schreibschutz</string>
+    <string name="menu_quill_page_tag">Tags</string>
+    <string name="menu_quill_page_type">Papier</string>
+    <string name="menu_quill_page_unfiltered_next">Weiter ohne Filter</string>
+    <string name="menu_quill_page_unfiltered_prev">Zurück ohne Filter</string>
+    <string name="menu_quill_pen_history">Benutzte Stilarten</string>
+    <string name="menu_quill_pencil">Bleistift</string>
+    <string name="menu_quill_prev">Vorherige Seite</string>
+    <string name="menu_quill_prev_condensed">Vorwärts</string>
+    <string name="menu_quill_prev_pen">Vorherige Stilart</string>
+    <string name="menu_quill_redo">Redo</string>
+    <string name="menu_quill_settings">Einstellungen</string>
+    <string name="menu_quill_straight_line">Gerade Linie</string>
+    <string name="menu_quill_straight_line_condensed">Gerade</string>
+    <string name="menu_quill_text">Text Eingabe</string>
+    <string name="menu_quill_text_condensed">Text</string>
+    <string name="menu_quill_thumbnails">Seitenübersicht</string>
+    <string name="menu_quill_tools">Tools</string>
+    <string name="menu_quill_undo">Undo</string>
+    <string name="menu_quill_width">Stiftbreite</string>
+    <string name="menu_tag_list_thumbnails">Seitenübersicht</string>
+    <string name="menu_thumbnail_delete">Seiten Entfernen</string>
+    <string name="menu_thumbnail_delete_condensed">Entfernen</string>
+    <string name="menu_thumbnail_new_notebook">Neues Notizbuch</string>
+    <string name="menu_thumbnail_send_to_evernote">An Evernote senden</string>
+    <string name="menu_thumbnail_send_to_evernote_condensed">Evernote</string>
+    <string name="menu_thumbnail_switch_notebook">Notizbuch wechseln</string>
+    <string name="new_notebook_default_title">Neues Notizbuch </string>
+    <string name="new_notebook_description">Beschreibung:</string>
+    <string name="preferences_action_bar">Zeige die Action Leiste</string>
+    <string name="preferences_action_bar_summary">Ob die horizontale Leiste am oberen Bildschirmrand angezeigt wird</string>
+    <string name="preferences_backup_auto">Automatische Backups</string>
+    <string name="preferences_backup_auto_summary">Erstellt Sicherungskopien aller Notizbücher automatisch</string>
+    <string name="preferences_backup_dir">Ordner für automatische Backups</string>
+    <string name="preferences_debug">Debug Optionen</string>
+    <string name="preferences_double_tap">Doppel-Antippen beim Schreiben</string>
+    <string name="preferences_double_tap_summary">Vergrössern/verkleinern durch doppelt antippen im Schreibmodus</string>
+    <string name="preferences_err_loading_backup">Fehler beim laden der Backupdatei</string>
+    <string name="preferences_err_not_a_directory">(Fehler: Ist kein Ordner)</string>
+    <string name="preferences_err_permissions">(Fehler: Keine Schreibrechte)</string>
+    <string name="preferences_incomplete">Unvollständige Funktionen</string>
+    <string name="preferences_incomplete_summary">Funktionen die noch nicht fertig sind werden angeboten</string>
+    <string name="preferences_input">Eingabe Präferenzen</string>
+    <string name="preferences_keep_screen_on">Bildschirm an lassen</string>
+    <string name="preferences_keep_screen_on_summary">Der Bildschirm bleibt an solange das Hauptfenster angezeigt wird</string>
+    <string name="preferences_move_gesture">Verschiebe-Geste beim Schreiben</string>
+    <string name="preferences_move_gesture_summary">Bildschirm berühren mit zwei Fingern verschiebt im Schreibmodus</string>
+    <string name="preferences_move_zoom">Feste Vergrösserung während der Verschiebe-Geste</string>
+    <string name="preferences_move_zoom_summary">Ob der Zoom-Faktor konstant bleibt oder sich mit der Zwick-Geste verändert</string>
+    <string name="preferences_override_pen_title">Stiftentdeckung überschreiben</string>
+    <string name="preferences_palm_shield">Handballenauflage</string>
+    <string name="preferences_palm_shield_summary">Macht die untere Bildschirmhälfte unempfindlich fuer Berührungen (obere Hälfte für Linkshänder)</string>
+    <string name="preferences_pen_input_mode_title">Stift Eingabemodus</string>
+    <string name="preferences_pick_backup">Wählen Sie ein Backup zum wiederherstellen aus</string>
+    <string name="preferences_restore">Backup wiedereinspielen</string>
+    <string name="preferences_restore_summary">Importiert eine .quill Backup Datei (\"Export\" erstellt Backups)</string>
+    <string name="preferences_select_backup_folder">Wählen Sie einen Backup-Ordner aus</string>
+    <string name="preferences_system_bar">Verstecke die System Leiste (Benötigt root)</string>
+    <string name="preferences_system_bar_summary">Entfernt die horizontale Leiste am underen Bildschirmrand (Home button, Uhr)</string>
+    <string name="preferences_toolbox_left">Rechtshänder (die Meisten)</string>
+    <string name="preferences_toolbox_left_summary">Der Rote Knopf und Toolbox sind auf der linken Seite</string>
+    <string name="preferences_tools_switch_back">Tools schalten zurück</string>
+    <string name="preferences_tools_switch_back_summary">Schalte automatisch zum Stift zurueck nach verschieben/zoom und radieren.</string>
+    <string name="preferences_user_data">User Daten</string>
+    <string name="preferences_user_handedness">Dominante Hand</string>
+    <string name="preferences_volume_key_nav">Lautstärke Navigation</string>
+    <string name="preferences_volume_key_nav_summary">Volume-up für nächste Seite, Volume-down für vorhergehende Seite</string>
+    <string name="quill_already_first_page">Schon auf der ersten Seite</string>
+    <string name="quill_already_first_tagged_page">Schon auf der ersten Seite mit Tag</string>
+    <string name="quill_deleted_page">Seite %1$d / %2$d gelöscht</string>
+    <string name="quill_inserted_at_end">Neue Seite am Ende eingefügt</string>
+    <string name="quill_no_other_pen_styles">Keine weiteren Stilarten verfügbar.</string>
+    <string name="quill_redo">Redo</string>
+    <string name="quill_showing_first_page">Erste Seite wird angezeigt</string>
+    <string name="quill_showing_first_tagged_page">Erste Seite mit Tag wird angezeigt</string>
+    <string name="quill_showing_last_page">Letzte Seite wird angezeigt</string>
+    <string name="quill_showing_last_tagged_page">Letzte Seite mit Tag wird angezeigt</string>
+    <string name="quill_showing_page">Zeige Seite %1$d / %2$d</string>
+    <string name="quill_undo">Undo</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tag_button">Tags</string>
+    <string name="tag_list_default_text"/>
+    <string name="tag_list_new_label">Neu : </string>
+    <string name="tag_list_title">Tag aktuelle Seite</string>
+    <string name="tag_overlay_missing">(fehlt)</string>
+    <string name="tag_overlay_page_number">Seite %1$d</string>
+    <string name="tag_overlay_required">(notwendig)</string>
+    <string name="tag_overlay_tags">Tags:</string>
+    <string name="thumbnail_multiselect_multiple">%1$d Seiten ausgewählt</string>
+    <string name="thumbnail_multiselect_single">Eine Seite</string>
+    <string name="thumbnail_multiselect_title">Ausgewählt</string>
+    <string name="thumbnail_new_notebook_title">Neues Notizbuch erstellen</string>
+    <string name="thumbnail_title_filter">Zeige nur Seiten mit den folgenden Tags</string>
+</resources>

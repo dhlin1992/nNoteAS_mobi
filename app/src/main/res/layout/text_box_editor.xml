@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_text_box_editor_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbox_column3_buttonSize"
+        android:background="@drawable/frame"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                style="@style/DrawerToolbox_ImageButton_Style"
+                android:layout_width="@dimen/toolbox_column4_buttonSize"
+                android:layout_height="@dimen/toolbox_column4_buttonSize"
+                android:background="@drawable/toolbox_back"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="27px"
+            android:text="@string/text_input_preview"
+            android:textSize="28px" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@android:color/black" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/spinner_text_box_font_size_bg"/>
+
+        <utility.ToggleImageButton
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:src_checked="@drawable/writing_textbox_fontstyle_bold_active"
+            app:src_unchecked="@drawable/writing_textbox_fontstyle_bold" />
+
+        <utility.ToggleImageButton
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:src_checked="@drawable/writing_textbox_fontstyle_italic_active"
+            app:src_unchecked="@drawable/writing_textbox_fontstyle_italic" />
+
+        <utility.ToggleImageButton
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:src_checked="@drawable/writing_textbox_fontstyle_underline_active"
+            app:src_unchecked="@drawable/writing_textbox_fontstyle_underline" />
+
+        <ImageButton
+            android:layout_width="@dimen/toolbox_column4_buttonSize"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_textbox_color" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_textbox_ok_bg"
+            android:gravity="end|center_vertical"
+            android:paddingRight="20dp"
+            android:text="@string/save"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+    </FrameLayout>
+
+
+</LinearLayout>

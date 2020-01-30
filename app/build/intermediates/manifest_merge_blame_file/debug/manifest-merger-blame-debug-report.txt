@@ -1,0 +1,327 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ntx.note"
+4    android:sharedUserId="ntx.shared2"
+5    android:versionCode="50802"
+6    android:versionName="5.8.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="19" />
+10-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:11:5-81
+12-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:11:22-78
+13    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+13-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:12:5-13:47
+13-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:12:22-75
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:14:5-72
+14-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:14:22-69
+15    <uses-permission android:name="android.permission.READ_PROFILE" />
+15-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:15:5-71
+15-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:15:22-68
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:16:5-67
+16-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:16:22-64
+17    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+17-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:17:5-80
+17-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:17:22-77
+18    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+18-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:18:5-71
+18-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:18:22-68
+19    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+19-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:19:5-20:47
+19-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:19:22-70
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:21:5-76
+20-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:21:22-73
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:22:5-79
+21-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:22:22-76
+22    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+22-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:23:5-76
+22-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:23:22-73
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:24:5-68
+23-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:25:5-81
+24-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:25:22-78
+25
+26    <application
+26-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:28:5-184:19
+27        android:name="android.support.multidex.MultiDexApplication"
+28        android:allowBackup="true"
+28-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:29:9-35
+29        android:debuggable="true"
+30        android:hardwareAccelerated="true"
+30-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:30:9-43
+31        android:icon="@drawable/recently_note"
+31-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:31:9-47
+32        android:label="@string/app_name"
+32-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:32:9-41
+33        android:largeHeap="true"
+33-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:33:9-33
+34        android:theme="@android:style/Theme.Holo.Light" >
+34-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:34:9-56
+35        <activity
+35-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:36:9-44:20
+36            android:name="ntx.note.NoteWriterActivity"
+36-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:37:13-55
+37            android:configChanges="orientation|screenSize|keyboardHidden"
+37-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:42:13-74
+38            android:exported="true"
+38-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:38:13-36
+39            android:icon="@drawable/recently_edit_note"
+39-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:39:13-56
+40            android:launchMode="singleTask"
+40-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:40:13-44
+41            android:screenOrientation="portrait"
+41-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:41:13-49
+42            android:theme="@style/FullScreen" >
+42-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:43:13-46
+43        </activity>
+44        <activity android:name="ntx.note.Preferences" >
+44-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:45:9-46:20
+44-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:45:19-54
+45        </activity>
+46        <activity android:name="org.libharu.TestActivity" >
+46-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:48:9-49:20
+46-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:48:19-58
+47        </activity>
+48        <activity
+48-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:50:9-74:20
+49            android:name="ntx.note.bookshelf.NtxLauncherActivity"
+49-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:51:13-66
+50            android:alwaysRetainTaskState="false"
+50-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:52:13-50
+51            android:clearTaskOnLaunch="true"
+51-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:53:13-45
+52            android:configChanges="orientation|keyboardHidden"
+52-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:54:13-63
+53            android:exported="true"
+53-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:58:13-36
+54            android:launchMode="singleTask"
+54-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:55:13-44
+55            android:screenOrientation="portrait"
+55-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:56:13-49
+56            android:stateNotNeeded="true"
+56-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:57:13-42
+57            android:theme="@style/MainActiviry"
+57-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:60:13-48
+58            android:windowSoftInputMode="adjustNothing" >
+58-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:59:13-56
+59            <intent-filter>
+59-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:62:13-65:29
+60                <action android:name="android.intent.action.APP_ERROR" />
+60-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:63:17-73
+60-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:63:25-71
+61
+62                <category android:name="android.intent.category.default" />
+62-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:64:17-75
+62-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:64:27-73
+63            </intent-filter>
+64            <intent-filter>
+64-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:67:13-73:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:68:17-69
+65-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:68:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:69:17-77
+67-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:69:27-74
+68
+69                <action android:name="android.intent.action.VIEW" />
+69-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:70:17-69
+69-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:70:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:71:17-76
+71-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:71:27-73
+72                <category android:name="android.intent.category.MONKEY" />
+72-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:72:17-75
+72-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:72:27-72
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:75:9-78:20
+76            android:name="ntx.note.UpdateActivity"
+76-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:76:13-51
+77            android:theme="@android:style/Theme.Holo.Dialog" >
+77-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:77:13-61
+78        </activity>
+79        <activity
+79-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:79:9-82:20
+80            android:name="ntx.note.image.ImageActivity"
+80-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:80:13-56
+81            android:theme="@style/FullScreen" >
+81-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:81:13-46
+82        </activity>
+83        <activity
+83-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:84:9-87:20
+84            android:name="ntx.note.image.ImagePickerActivity"
+84-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:85:13-62
+85            android:theme="@style/FullScreen" >
+85-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:86:13-46
+86        </activity>
+87        <activity
+87-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:89:9-93:20
+88            android:name="ntx.note.pencalibration.PenCalibrateActivity"
+88-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:90:13-72
+89            android:screenOrientation="portrait"
+89-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:91:13-49
+90            android:theme="@style/FullScreen" >
+90-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:92:13-46
+91        </activity>
+92
+93        <!-- Artis test for Google Drive API -->
+94        <activity
+94-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:96:9-99:47
+95            android:name="com.google.android.gms.drive.sample.quickstart.GDriveActivity"
+95-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:97:13-89
+96            android:label="GDriveActivity"
+96-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:98:13-43
+97            android:launchMode="singleTask" />
+97-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:99:13-44
+98
+99        <meta-data
+99-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:101:9-103:69
+100            android:name="com.google.android.gms.version"
+100-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:102:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:103:13-66
+102
+103        <!-- <activity -->
+104        <!-- android:name="ntx.note.image.CropImage" -->
+105        <!-- android:theme="@android:style/Theme.Holo.Light" > -->
+106        <!-- </activity> -->
+107        <activity
+107-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:109:9-112:20
+108            android:name="ntx.note.sync.NewAccountActivity"
+108-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:110:13-60
+109            android:theme="@android:style/Theme.Holo.Dialog" >
+109-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:111:13-61
+110        </activity>
+111        <activity
+111-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:113:9-116:20
+112            android:name="ntx.note.sync.LoginActivity"
+112-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:114:13-55
+113            android:theme="@android:style/Theme.Holo.Dialog" >
+113-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:115:13-61
+114        </activity>
+115
+116        <service
+116-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:118:9-128:19
+117            android:name="ntx.note.sync.AuthenticatorService"
+117-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:119:13-62
+118            android:exported="false" >
+118-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:120:13-37
+119            <intent-filter>
+119-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:121:13-123:29
+120                <action android:name="android.accounts.AccountAuthenticator" />
+120-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:122:17-80
+120-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:122:25-77
+121            </intent-filter>
+122
+123            <meta-data
+123-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:125:13-127:57
+124                android:name="android.accounts.AccountAuthenticator"
+124-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:126:17-69
+125                android:resource="@xml/authenticator" />
+125-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:127:17-54
+126        </service>
+127
+128        <activity android:name="ntx.note.sync.AccountPreferences" >
+128-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:130:9-131:20
+128-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:130:19-66
+129        </activity>
+130        <activity
+130-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:132:9-135:20
+131            android:name="name.vbraun.lib.help.HelpBrowser"
+131-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:133:13-60
+132            android:theme="@android:style/Theme.Holo" >
+132-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:134:13-54
+133        </activity>
+134
+135        <uses-library
+135-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:137:9-139:40
+136            android:name="com.sec.android.app.multiwindow"
+136-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:138:13-59
+137            android:required="false" />
+137-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:139:13-37
+138
+139        <meta-data
+139-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:141:9-143:36
+140            android:name="com.sec.android.support.multiwindow"
+140-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:142:13-63
+141            android:value="true" />
+141-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:143:13-33
+142        <meta-data
+142-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:144:9-146:59
+143            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+143-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:145:13-70
+144            android:resource="@dimen/app_defaultsize_w" />
+144-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:146:13-56
+145        <meta-data
+145-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:147:9-149:59
+146            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+146-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:148:13-70
+147            android:resource="@dimen/app_defaultsize_h" />
+147-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:149:13-56
+148        <meta-data
+148-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:150:9-152:59
+149            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+149-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:151:13-70
+150            android:resource="@dimen/app_minimumsize_w" />
+150-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:152:13-56
+151        <meta-data
+151-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:153:9-155:59
+152            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+152-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:154:13-70
+153            android:resource="@dimen/app_minimumsize_h" />
+153-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:155:13-56
+154
+155        <activity
+155-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:157:9-170:20
+156            android:name="com.dropbox.core.android.AuthActivity"
+156-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:158:13-65
+157            android:configChanges="orientation|keyboard"
+157-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:159:13-57
+158            android:launchMode="singleTask" >
+158-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:160:13-44
+159            <intent-filter>
+159-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:161:13-169:29
+160                <data android:scheme="db-f1irdmrgxiwdrts" />
+160-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:163:17-61
+160-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:163:23-58
+161
+162                <action android:name="android.intent.action.VIEW" />
+162-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:70:17-69
+162-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:70:25-66
+163
+164                <category android:name="android.intent.category.BROWSABLE" />
+164-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:167:17-78
+164-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:167:27-75
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:71:17-76
+165-->/home/dennis/MobiScribeAndroidStuff/nNoteAS_mobi/app/src/main/AndroidManifest.xml:71:27-73
+166            </intent-filter>
+167        </activity>
+168
+169        <!-- <service -->
+170        <!-- android:exported="true" -->
+171        <!-- android:name="ntx.note.NoteLibraryService"></service> -->
+172
+173
+174        <!-- <receiver android:name="ntx.note.BootUpReceiver"> -->
+175        <!-- <intent-filter> -->
+176        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+177        <!-- </intent-filter> -->
+178        <!-- </receiver> -->
+179
+180    </application>
+181
+182</manifest>

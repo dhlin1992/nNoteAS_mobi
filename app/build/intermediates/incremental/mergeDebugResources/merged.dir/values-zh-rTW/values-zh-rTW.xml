@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="backup_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+    </string-array>
+    <string-array name="backup_via_entries_no_extsd">
+        <item>內部儲存</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+    </string-array>
+    <string-array name="backup_via_local_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+    </string-array>
+    <string-array name="backup_via_local_entries_no_extsd">
+        <item>內部儲存</item>
+    </string-array>
+    <string-array name="convert_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+        <item>作為休眠屏幕</item>
+        <item>作為關機屏幕</item>
+    </string-array>
+    <string-array name="convert_via_entries_no_extsd">
+        <item>內部儲存</item>
+        <item>Dropbox</item>
+        <item>電子郵件</item>
+        <item>作為休眠屏幕</item>
+        <item>作為關機屏幕</item>
+    </string-array>
+    <string-array name="exportBackup_file_format">
+        <item>Whole notebook as nNote backup archive</item>
+    </string-array>
+    <string-array name="exportBackup_file_values">
+        <item>EXPORT_FILE_QUILL</item>
+    </string-array>
+    <string-array name="exportBackup_size_raster">
+        <item>1920 x 1080 pixels (HDTV)</item>
+        <item>1280 x 800 pixels</item>
+        <item>1024 x 768 pixels (Projector)</item>
+        <item>800 x 600 pixels</item> 
+    </string-array>
+    <string-array name="exportBackup_via_entries">
+        <item>Internal memory</item>
+        <item>External SD card</item>
+        <item>Email</item>
+        <!-- <item>Dropbox</item> -->
+        <!-- <item>Pick directory to save to</item>  -->
+    </string-array>
+    <string-array name="exportBackup_via_values">
+        <item>EXPORT_VIA_SDCARD</item>
+        <item>EXPORT_VIA_EXTERNALSD</item>
+        <item>EXPORT_VIA_EMAIL</item>
+        <!-- <item>EXPORT_VIA_DROPBOX</item> -->
+        <!--<item>EXPORT_VIA_PICK</item>  -->
+    </string-array>
+    <string-array name="export_file_format">
+        <item>Current page as raster image (PNG)</item>
+        <item>Current page as vector graphics (PDF)</item>
+        <!-- <item>Tagged pages as vector graphics (PDF)</item> -->
+        <item>Whole notebook as vector graphics (PDF)</item>
+        <!--<item>Whole notebook as nNote backup archive</item> -->
+    </string-array>
+    <string-array name="export_file_values">
+        <item>EXPORT_FILE_PNG</item>
+        <item>EXPORT_FILE_PDF_PAGE</item>
+        <item>EXPORT_FILE_PDF_TAGGED</item>
+        <item>EXPORT_FILE_PDF_ALL</item>
+        <!-- <item>EXPORT_FILE_QUILL</item> -->
+    </string-array>
+    <string-array name="export_size_raster">
+        <item>1920 x 1080 pixels (HDTV)</item>
+        <item>1280 x 800 pixels</item>
+        <item>1024 x 768 pixels (Projector)</item>
+        <item>800 x 600 pixels</item> 
+    </string-array>
+    <string-array name="export_size_vector">
+        <item>A4 Paper (210 × 297mm)</item>
+         <item>US Letter (8.5 x 11in)</item>
+        <item>US Legal (8.5 x 14in)</item>
+    </string-array>
+    <string-array name="export_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item> 
+        <item>Email</item>
+        <item>作為休眠屏幕</item> 
+        <item>作為關機屏幕</item>  
+        <!-- <item>Pick directory to save to</item>  -->
+    </string-array>
+    <string-array name="export_via_values">
+        <item>EXPORT_VIA_SDCARD</item>
+        <item>EXPORT_VIA_EXTERNALSD</item> 
+        <item>EXPORT_VIA_EMAIL</item>
+        <item>EXPORT_VIA_SLEEP_SCREEN</item> 
+        <item>EXPORT_VIA_POWER_OFF_SCREEN</item> 
+        <!--<item>EXPORT_VIA_PICK</item>  -->
+    </string-array>
+    <string-array name="import_via_entries">
+        <item>內部儲存</item>
+        <item>記憶卡</item>
+        <item>Dropbox</item>
+    </string-array>
+    <string-array name="import_via_entries_no_extsd">
+        <item>內部儲存</item>
+        <item>Dropbox</item>
+    </string-array>
+    <string-array name="toolbox_full_refresh_time">
+        <item>每5分鐘</item>
+        <item>每10分鐘</item>
+        <item>每15分鐘</item>
+        <item>從不</item>
+    </string-array>
+    <string-array name="toolbox_offset_x">
+        <item>左移 20</item>
+        <item>左移 16</item>
+        <item>左移 12</item>
+        <item>左移  8</item>
+        <item>左移  4</item>
+        <item>置中</item>
+        <item>右移  4</item>
+        <item>右移  8</item>
+        <item>右移 12</item>
+        <item>右移 16</item>
+        <item>右移 20</item>
+    </string-array>
+    <string-array name="toolbox_offset_y">
+        <item>上移 20</item>
+        <item>上移 16</item>
+        <item>上移 12</item>
+        <item>上移  8</item>
+        <item>上移  4</item>
+        <item>置中</item>
+        <item>下移  4</item>
+        <item>下移  8</item>
+        <item>下移 12</item>
+        <item>下移 16</item>
+        <item>下移 20</item>
+    </string-array>
+    <string-array name="toolbox_thickness">
+        <item>筆刷 1</item>
+        <item>筆刷 2</item>
+        <item>筆刷 3</item>
+        <item>筆刷 4</item>
+        <item>筆刷 5</item>
+        <item>自訂筆刷</item>
+    </string-array>
+    <dimen name="edit_notebook_text_size">24sp</dimen>
+    <dimen name="exportBackup_spacer">15dp</dimen>
+    <dimen name="export_spacer">15dp</dimen>
+    <dimen name="toolbox_color">24dp</dimen>
+    <dimen name="toolbox_color_sep">0dp</dimen>
+    <string name="Pick_Image">挑選圖片</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="activity_base_automatic_save_fail">儲存失敗</string>
+    <string name="activity_base_automatic_saved">已儲存</string>
+    <string name="activity_base_backed_up">nNote 備份筆記</string>
+    <string name="add">新增</string>
+    <string name="backup">備份</string>
+    <string name="backup_all">備份全部</string>
+    <string name="backup_and_delete">備份\n&amp; 刪除</string>
+    <string name="backuping">備份中...</string>
+    <string name="calculating">計算中...</string>
+    <string name="calibration">校準</string>
+    <string name="check_network">請檢查網路…</string>
+    <string name="command_clear_page">清除頁面 %1$d</string>
+    <string name="command_create_graphics">新增在頁面 %1$d</string>
+    <string name="command_erase_graphics">移除在頁面 %1$d</string>
+    <string name="command_page_erase">刪除頁面 %1$d </string>
+    <string name="command_page_insert">插入頁面 %1$d </string>
+    <string name="convert">轉存</string>
+    <string name="converting">轉存中...</string>
+    <string name="copy">複製</string>
+    <string name="copying">複製中...</string>
+    <string name="create_new_note_horizontal">橫式</string>
+    <string name="create_new_note_vertical">直式</string>
+    <string name="current_note">目前的筆記本</string>
+    <string name="current_page">目前的頁面</string>
+    <string name="delete">刪除</string>
+    <string name="delete_backup_confirm">刪除 %d 個備份檔?</string>
+    <string name="delete_notebook_message">筆記本將會被刪除, 確定要繼續嗎?</string>
+    <string name="delete_selected_pages_hint">刪除選擇的頁面?</string>
+    <string name="delete_selected_pages_title">刪除選擇頁面</string>
+    <string name="deleting">刪除中...</string>
+    <string name="device">裝置</string>
+    <string name="dialog_confirm_later">稍候</string>
+    <string name="dialog_confirm_no">否</string>
+    <string name="dialog_confirm_yes">是</string>
+    <string name="dialog_open_folder">打開文件夾</string>
+    <string name="downloading">下載中...</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="dropbox_download_success">已成功匯入檔案</string>
+    <string name="dropbox_free_space">可用</string>
+    <string name="dropbox_login">Dropbox 登入</string>
+    <string name="dropbox_logout">Dropbox 登出</string>
+    <string name="dropbox_upload_success">已成功備份檔案</string>
+    <string name="edit">編輯</string>
+    <string name="edit_notebook_backup">備份</string>
+    <string name="edit_notebook_delete">刪除</string>
+    <string name="edit_notebook_export">列印</string>
+    <string name="edit_notebook_header">敘述:</string>
+    <string name="edit_notebook_title">編輯筆記本</string>
+    <string name="edit_notebook_title_new">新增筆記本</string>
+    <string name="exportBackup_background">包含紙張</string>
+    <string name="exportBackup_button_text">備份</string>
+    <string name="exportBackup_email_login">請先新增電子郵件帳號</string>
+    <string name="exportBackup_err_cannot_create_file">無法產生檔案</string>
+    <string name="exportBackup_err_cannot_write_file">無法寫入檔案</string>
+    <string name="exportBackup_err_no_way_to_share">無法備份</string>
+    <string name="exportBackup_err_path_does_not_exist">路徑不存在</string>
+    <string name="exportBackup_evernote_cancel_message">Cancelled export to Evernote</string>
+    <string name="exportBackup_evernote_download_question">Download from Android Market?</string>
+    <string name="exportBackup_evernote_err_cannot_close">Unable to close file %1$s</string>
+    <string name="exportBackup_evernote_err_cannot_write">Unable to write file %1$s</string>
+    <string name="exportBackup_evernote_err_no_cache_dir">Unable to open cache directory</string>
+    <string name="exportBackup_evernote_err_not_found">You must first install the Evernote app</string>
+    <string name="exportBackup_evernote_message">Compressing pages …</string>
+    <string name="exportBackup_evernote_title">Send to Evernote</string>
+    <string name="exportBackup_file_format_header">格式:</string>
+    <string name="exportBackup_filename_default">Filename.pdf</string>
+    <string name="exportBackup_name_header">檔名:</string>
+    <string name="exportBackup_path_header">儲存到:</string>
+    <string name="exportBackup_pick_destination_directory">選擇目的地資料夾</string>
+    <string name="exportBackup_save_to_external">一併儲存至外部儲存空間</string>
+    <string name="exportBackup_saved_as">儲存成</string>
+    <string name="exportBackup_share_title">備份頁面經由</string>
+    <string name="exportBackup_via_header">儲存檔案經由:</string>
+    <string name="exportBackup_view_file_title">檢視備份的檔案經由</string>
+    <string name="export_background">包含紙張</string>
+    <string name="export_button_text">列印</string>
+    <string name="export_email_login">請先新增電子郵件帳號</string>
+    <string name="export_err_cannot_create_file">無法產生檔案</string>
+    <string name="export_err_cannot_write_file">無法寫入檔案</string>
+    <string name="export_err_no_way_to_share">無法列印</string>
+    <string name="export_err_path_does_not_exist">路徑不存在</string>
+    <string name="export_evernote_cancel_message">Cancelled export to Evernote</string>
+    <string name="export_evernote_download_question">Download from Android Market?</string>
+    <string name="export_evernote_err_cannot_close">Unable to close file %1$s</string>
+    <string name="export_evernote_err_cannot_write">Unable to write file %1$s</string>
+    <string name="export_evernote_err_no_cache_dir">Unable to open cache directory</string>
+    <string name="export_evernote_err_not_found">You must first install the Evernote app</string>
+    <string name="export_evernote_message">Compressing pages …</string>
+    <string name="export_evernote_title">Send to Evernote</string>
+    <string name="export_file_format_header">格式:</string>
+    <string name="export_filename_default">Filename.pdf</string>
+    <string name="export_name_header">檔名:</string>
+    <string name="export_path_header">儲存到:</string>
+    <string name="export_pick_destination_directory">選擇目的地資料夾</string>
+    <string name="export_save_to_external">一併儲存至外部儲存空間</string>
+    <string name="export_saved_as">儲存成</string>
+    <string name="export_share_title">列印頁面經由</string>
+    <string name="export_size_header">解析度:</string>
+    <string name="export_via_header">儲存位置:</string>
+    <string name="export_view_file_title">檢視列印出的檔案經由</string>
+    <string name="fail">失敗</string>
+    <string name="file_copy_to_xxx_dialog_title">複製此頁至</string>
+    <string name="filepicker_button_cancel">取消</string>
+    <string name="filepicker_button_imoport">匯入</string>
+    <string name="filepicker_button_imoportall">全部匯入</string>
+    <string name="filepicker_dialog_ok">確定</string>
+    <string name="filepicker_message_importConfirm">本筆記本將會被匯入, 確定要繼續嗎?</string>
+    <string name="filepicker_message_importFail">備份檔案匯入失敗!</string>
+    <string name="filepicker_message_importSuccess">個備份檔案,已經成功匯入!</string>
+    <string name="filepicker_text_selectall">選取全部</string>
+    <string name="format">格式</string>
+    <string name="horizontal">水平</string>
+    <string name="identical_files">相同的檔案</string>
+    <string name="image_editor_aspect_checkbox_label">固定1:1外觀比例</string>
+    <string name="image_editor_cancel">取消</string>
+    <string name="image_editor_cancel_saving_message">取消儲存圖片</string>
+    <string name="image_editor_crop">剪裁</string>
+    <string name="image_editor_erase">移除</string>
+    <string name="image_editor_err_no_photo">相機沒拍攝照片!</string>
+    <string name="image_editor_err_no_such_image">沒有這一張圖片!</string>
+    <string name="image_editor_err_permissions">相片不存在或沒有存取權限!</string>
+    <string name="image_editor_no_image">沒有選擇圖片</string>
+    <string name="image_editor_resolution">解析度</string>
+    <string name="image_editor_save">確定</string>
+    <string name="image_editor_saving_message">壓縮並儲存圖片</string>
+    <string name="image_editor_source_image">來源圖片</string>
+    <string name="image_editor_source_uri">來源位置</string>
+    <string name="image_editor_title">編輯圖片</string>
+    <string name="image_pick_no_image">沒有找到圖片!</string>
+    <string name="image_pick_title">選擇圖片</string>
+    <string name="import_file">匯入</string>
+    <string name="import_list_conflict_header">目的地中有 %1$d 個相同的檔案</string>
+    <string name="import_list_group_header">有 %1$d 個檔案為同本筆記本的備份檔</string>
+    <string name="importing">匯入中...</string>
+    <string name="info">關於</string>
+    <string name="information">關於</string>
+    <string name="information_backup"> 備份</string>
+    <string name="information_booksthumbnail"> 縮圖</string>
+    <string name="information_brush"> 毛筆</string>
+    <string name="information_clean"> 清除</string>
+    <string name="information_createPage"> 新增頁面</string>
+    <string name="information_deletePage"> 刪除頁面</string>
+    <string name="information_eraser"> 橡皮擦</string>
+    <string name="information_export"> 列印</string>
+    <string name="information_first"> 第一頁</string>
+    <string name="information_fountain_pen"> 鋼筆</string>
+    <string name="information_fullRefresh"> 刷新畫面</string>
+    <string name="information_import"> 匯入</string>
+    <string name="information_information"> 說明</string>
+    <string name="information_inverseColor"> 反轉色彩</string>
+    <string name="information_last"> 最後一頁</string>
+    <string name="information_line"> 線條</string>
+    <string name="information_more"> 更多選項</string>
+    <string name="information_move"> 移動頁面</string>
+    <string name="information_next"> 後一頁</string>
+    <string name="information_overview"> 顯示整頁</string>
+    <string name="information_paper"> 紙張</string>
+    <string name="information_pencil"> 鉛筆</string>
+    <string name="information_photo"> 插入圖片</string>
+    <string name="information_preferences"> 偏好設定</string>
+    <string name="information_previous"> 前一頁</string>
+    <string name="information_redo"> 重做</string>
+    <string name="information_rotate"> 旋轉</string>
+    <string name="information_save"> 儲存</string>
+    <string name="information_tag"> 頁籤</string>
+    <string name="information_thickness"> 筆刷</string>
+    <string name="information_undo"> 復原</string>
+    <string name="insufficient_memory_space">剩餘空間不足</string>
+    <string name="interrupt">中斷</string>
+    <string name="item_all_books">全部書籍</string>
+    <string name="item_all_notes">全部筆記</string>
+    <string name="language">語言</string>
+    <string name="layout">佈局</string>
+    <string name="loading">載入中...</string>
+    <string name="loading_notebook">打開筆記本中, 請稍候…</string>
+    <string name="loading_try_again_later">載入頁面中, 請稍候再試…</string>
+    <string name="manage">管理</string>
+    <string name="manage_notebooks">管理筆記本</string>
+    <string name="menu_calendar">行事曆</string>
+    <string name="menu_image_aspect">固定外觀比例</string>
+    <string name="menu_image_cropped">剪裁圖片</string>
+    <string name="menu_image_cropped_condensed">剪裁</string>
+    <string name="menu_image_photo">照相</string>
+    <string name="menu_image_photo_condensed">相機</string>
+    <string name="menu_image_pick">選擇圖片</string>
+    <string name="menu_image_pick_condensed">相簿</string>
+    <string name="menu_note">筆記</string>
+    <string name="menu_ntxbookshelf_delete">Delete pages</string>
+    <string name="menu_ntxbookshelf_delete_condensed">Delete</string>
+    <string name="menu_ntxbookshelf_new_notebook">New notebook</string>
+    <string name="menu_ntxbookshelf_send_to_catch">Send to Catch.com</string>
+    <string name="menu_ntxbookshelf_send_to_evernote">Send to Evernote</string>
+    <string name="menu_ntxbookshelf_send_to_evernote_condensed">Evernote</string>
+    <string name="menu_ntxbookshelf_show_tags">Show tags</string>
+    <string name="menu_ntxbookshelf_switch_notebook">Switch notebook</string>
+    <string name="menu_ntxbookshelf_sync">Sync</string>
+    <string name="menu_reader">書籍</string>
+    <string name="message_delete_notebook_try_again">請刪除一些筆記本, 然後再試一次.</string>
+    <string name="message_export_total_file">%d 本筆記本將會被備份</string>
+    <string name="message_space_not_enough">筆記本儲存空間不足</string>
+    <string name="move">移動</string>
+    <string name="move_to">移動至...</string>
+    <string name="msg_clear_confirm">清除目前頁面?</string>
+    <string name="msg_delete_confirm">刪除目前頁面?</string>
+    <string name="msg_full_refresh_time">刷新畫面時間 :</string>
+    <string name="msg_import_confirm">%1$s 已經存在! \n您要覆蓋它嗎?</string>
+    <string name="msg_import_confirm_no">否</string>
+    <string name="msg_import_confirm_overwrite_all">全部取代</string>
+    <string name="msg_import_confirm_yes">是</string>
+    <string name="msg_offset">校正</string>
+    <string name="msg_offset_button">手寫筆校正</string>
+    <string name="msg_offset_horizontal">水平方向 :</string>
+    <string name="msg_offset_vertical">垂直方向 :</string>
+    <string name="msg_pen_calibration">請點擊十字中心</string>
+    <string name="msg_set_first_row_toolbox_visible">自動隱藏第一排工具列</string>
+    <string name="msg_warning_image">警告!!圖片超過%1$d張.</string>
+    <string name="msg_warning_page_numbers">警告!!頁碼超過%1$d頁.</string>
+    <string name="name">名稱</string>
+    <string name="name_bar">名稱欄位</string>
+    <string name="new_notebook_default_title"/>
+    <string name="new_notebook_description">敘述:</string>
+    <string name="no_internet_connection">沒有網路連結</string>
+    <string name="not_enough_space">剩餘空間不足</string>
+    <string name="not_logged_in_to_dropbox">尚未登入Dropbox</string>
+    <string name="ntxbookshelf_multiselect_multiple">%1$d pages selected</string>
+    <string name="ntxbookshelf_multiselect_single">One page selected</string>
+    <string name="ntxbookshelf_multiselect_title">Select Items</string>
+    <string name="ntxbookshelf_new_notebook_title">Create a new notebook</string>
+    <string name="ntxbookshelf_preview_thumbnail">縮圖預覽</string>
+    <string name="ntxbookshelf_preview_title">檔名預覽(較快)</string>
+    <string name="ntxbookshelf_sort_created">建立時間</string>
+    <string name="ntxbookshelf_sort_last_modified">最近編輯</string>
+    <string name="ntxbookshelf_sort_name">筆記本名稱</string>
+    <string name="ntxbookshelf_tag_button">Tags</string>
+    <string name="ntxbookshelf_title_filter">No Name</string>
+    <string name="open_book">開啟書籍</string>
+    <string name="original">原本檔案： </string>
+    <string name="other_note">其他的筆記本</string>
+    <string name="other_note_empty_hint">沒有其他的筆記本</string>
+    <string name="out_of_memory">記憶體不足</string>
+    <string name="output_format">轉存格式</string>
+    <string name="page_tag">第%d頁</string>
+    <string name="paste_to">貼上至...</string>
+    <string name="pen_calibration">筆尖校正 </string>
+    <string name="preview">預覽</string>
+    <string name="quill_already_first_page">已經在第一頁</string>
+    <string name="quill_already_first_tagged_page">已經在第一頁</string>
+    <string name="quill_already_last_tagged_page">已經在最後一頁</string>
+    <string name="quill_deleted_page">刪除頁面 %1$d / %2$d</string>
+    <string name="quill_inserted_at_end">在最後插入一頁</string>
+    <string name="quill_inserted_at_next">在下頁插入一頁</string>
+    <string name="quill_inserted_fail">此為空頁面,無法新增</string>
+    <string name="quill_no_other_pen_styles">No other pen styles in history.</string>
+    <string name="quill_redo">重做</string>
+    <string name="quill_showing_first_page">顯示第一頁</string>
+    <string name="quill_showing_first_tagged_page">顯示第一頁</string>
+    <string name="quill_showing_last_page">顯示最後一頁</string>
+    <string name="quill_showing_last_tagged_page">顯示最後一頁</string>
+    <string name="quill_showing_page">顯示頁面 %1$d / %2$d</string>
+    <string name="quill_undo">復原</string>
+    <string name="range">範圍</string>
+    <string name="rename">更名</string>
+    <string name="replace">取代</string>
+    <string name="restore">還原</string>
+    <string name="restore_confirm_message">這將會覆蓋目前的筆記本, 確定要繼續嗎?</string>
+    <string name="restore_list_empty_hint">目前沒有備份檔</string>
+    <string name="restoring">還原中...</string>
+    <string name="save">存擋</string>
+    <string name="save_fail">存擋失敗, 請再試一次</string>
+    <string name="save_file_via">儲存位置</string>
+    <string name="save_include_page_background">包含頁面背景</string>
+    <string name="saving">儲存中...</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string name="search_note_not_found_hint">找不到相符的結果</string>
+    <string name="selected">選取</string>
+    <string name="set_network"><u>設定網路</u></string>
+    <string name="settings">設置</string>
+    <string name="show_memo_message">顯示主題標籤而非筆記名稱</string>
+    <string name="sign_in"><u>登入</u></string>
+    <string name="sign_out"><u>登出</u></string>
+    <string name="size">大小</string>
+    <string name="skip">跳過</string>
+    <string name="sort">排序</string>
+    <string name="star_tag">書籤</string>
+    <string name="star_tag_lst">書籤列表</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="successful">成功</string>
+    <string name="sync_with_dropbox">與Dropbox同步中...</string>
+    <string name="tag_list_empty_hint">您尚未有任何的標籤</string>
+    <string name="tag_overlay_missing">(missing)</string>
+    <string name="tag_overlay_page_number">Page %1$d</string>
+    <string name="tag_overlay_required">(required)</string>
+    <string name="tag_overlay_tags">Tags:</string>
+    <string name="toolbox_all">全部</string>
+    <string name="toolbox_backup">備份</string>
+    <string name="toolbox_cancel">取消</string>
+    <string name="toolbox_close">關  閉</string>
+    <string name="toolbox_delete">刪除</string>
+    <string name="toolbox_information">說明:</string>
+    <string name="toolbox_message_backup_all_confirm">您的筆記已經超過一周未備份。\n
+     為確保數據的安全性，我們建議您定期備份。</string>
+    <string name="toolbox_message_backup_confirm">個筆記本將備份, 確定繼續嗎?</string>
+    <string name="toolbox_message_backup_success">個筆記本,已經成功備份!</string>
+    <string name="toolbox_message_copy_success">個筆記本,已經成功複製!</string>
+    <string name="toolbox_message_delete_confirm">%s個筆記本將被刪除, 確定繼續嗎?</string>
+    <string name="toolbox_message_delete_confirm_book">%s本書將被刪除, 確定繼續嗎?</string>
+    <string name="toolbox_message_delete_success">個筆記本,已經成功刪除!</string>
+    <string name="toolbox_message_no_note_confirm">你沒有任何的筆記。</string>
+    <string name="toolbox_message_one_backup_success">筆記本已經成功備份!</string>
+    <string name="toolbox_message_one_print_success">筆記本已經成功列印!</string>
+    <string name="toolbox_paper_blank">空白筆記</string>
+    <string name="toolbox_paper_calligraphy_big">米字格(大)</string>
+    <string name="toolbox_paper_calligraphy_small">米字格(小)</string>
+    <string name="toolbox_paper_college_ruled">學院筆記</string>
+    <string name="toolbox_paper_cornell_notes">康乃爾筆記</string>
+    <string name="toolbox_paper_customized_paper">自訂底圖</string>
+    <string name="toolbox_paper_diary">日記</string>
+    <string name="toolbox_paper_meeting_minutes">會議記錄</string>
+    <string name="toolbox_paper_narrow_ruled">橫格筆記</string>
+    <string name="toolbox_paper_quadrangle">方格</string>
+    <string name="toolbox_paper_stave">五線譜</string>
+    <string name="toolbox_paper_to_do_list">待辦清單</string>
+    <string name="toolbox_photo_control_add">新增圖片</string>
+    <string name="toolbox_photo_control_add_from_picasso">由Picasso新增圖片</string>
+    <string name="toolbox_photo_control_cancel">取消</string>
+    <string name="toolbox_photo_control_edit">編輯</string>
+    <string name="toolbox_photo_control_remove">移除</string>
+    <string name="toolbox_print">列印</string>
+    <string name="toolbox_select_all_text">選取全部</string>
+    <string name="toolbox_select_message">請選取筆記本</string>
+    <string name="uploading">上傳中...</string>
+    <string name="vertical">垂直</string>
+    <string name="wait">請稍候…</string>
+    <string name="whole_note">整本筆記本</string>
+</resources>

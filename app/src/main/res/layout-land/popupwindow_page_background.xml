@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_default2"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_blank"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_blank" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_narrow"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_narrow" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_college"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_college" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_cornell"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_cornell" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_todo"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_todo" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_meeting"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_meeting" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_diary"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_diary" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_quadrangle"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_quadrangle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_stave"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_stave" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_calligraphy_small"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_calligraphy_small" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_calligraphy_big"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_calligraphy_big" />
+
+                <ImageButton
+                    android:id="@+id/btn_page_bg_customized"
+                    style="@style/page_background_image_style"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ic_page_bg_customized" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_custom_bg_setting"
+                android:layout_width="43px"
+                android:layout_height="43px"
+                android:layout_gravity="end"
+                android:layout_marginTop="10px"
+                android:layout_marginEnd="20px"
+                android:background="@drawable/ic_customized_page_bg_setting" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btn_custom_bg_1"
+                        style="@style/page_background_image_style"
+                        android:background="@drawable/ic_page_bg_user_defined_add"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_custom_bg_buttons_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="18px"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_change_1"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_change"
+                            android:scaleType="fitXY" />
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_delete_1"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_delete"
+                            android:scaleType="fitXY" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btn_custom_bg_2"
+                        style="@style/page_background_image_style"
+                        android:background="@drawable/ic_page_bg_user_defined_add"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_custom_bg_buttons_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="18px"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_change_2"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_change" />
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_delete_2"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_delete" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btn_custom_bg_3"
+                        style="@style/page_background_image_style"
+                        android:background="@drawable/ic_page_bg_user_defined_add"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_custom_bg_buttons_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="18px"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_change_3"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_change" />
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_delete_3"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_delete" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btn_custom_bg_4"
+                        style="@style/page_background_image_style"
+                        android:background="@drawable/ic_page_bg_user_defined_add"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_custom_bg_buttons_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="18px"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_change_4"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_change" />
+
+                        <ImageButton
+                            android:id="@+id/btn_custom_bg_delete_4"
+                            android:layout_width="55px"
+                            android:layout_height="48px"
+                            android:background="@drawable/ic_custombg_delete" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

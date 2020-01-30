@@ -1,0 +1,91 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dennis/nNoteAS_mobi/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/dennis/nNoteAS_mobi/app/src/main/res/values-land/style.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "114",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "230"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "793",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "909"
+                    }
+                },
+                {
+                    "source": "/home/dennis/nNoteAS_mobi/app/src/main/res/values-land/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "554",
+                        "endColumns": "56",
+                        "endOffsets": "606"
+                    }
+                },
+                {
+                    "source": "/home/dennis/.gradle/caches/transforms-2/files-2.1/34555d386a7eb9ea3045ff1382069509/appcompat-v7-27.1.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/dennis/.gradle/caches/transforms-2/files-2.1/660a2690d56c2bfef4bfec42ffcfbdcd/design-27.1.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "611",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "788"
+                    }
+                },
+                {
+                    "source": "/home/dennis/nNoteAS_mobi/app/src/main/res/values-land/dimen.xml",
+                    "from": {
+                        "startLines": "3,2,7,6",
+                        "startColumns": "1,1,1,1",
+                        "startOffsets": "101,52,246,189",
+                        "endColumns": "49,48,57,56",
+                        "endOffsets": "149,99,302,244"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "328,381,433,494",
+                        "endColumns": "52,51,60,59",
+                        "endOffsets": "376,428,489,549"
+                    }
+                }
+            ]
+        }
+    ]
+}

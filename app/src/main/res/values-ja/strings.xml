@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nNote</string>
+    <string name="changelog_full_title">変更ログ</string>
+    <string name="changelog_title">新着情報</string>
+    <string name="changelog_ok_button">はい</string>
+    <string name="Pick_Image">画像を選択</string>
+
+    <string name="toolbox_paper_blank">白紙</string>
+    <string name="toolbox_paper_narrow_ruled">狭い支配</string>
+    <string name="toolbox_paper_college_ruled">大学支配</string>
+    <string name="toolbox_paper_cornell_notes">コーネルノート</string>
+    <string name="toolbox_paper_to_do_list">リストを行うには</string>
+    <string name="toolbox_paper_meeting_minutes">議事録</string>
+    <string name="toolbox_paper_diary">日記</string>
+    <string name="toolbox_paper_quadrangle">四角形</string>
+    <string name="toolbox_paper_calligraphy_small">書道小</string>
+    <string name="toolbox_paper_calligraphy_big">書道大</string>
+    <string name="toolbox_paper_stave">ステーブ</string>
+    <string name="toolbox_paper_customized_paper">カスタマイズされた紙</string>
+
+    <!-- file operations -->
+    <string name="rename">リネーム</string>
+    <string name="copy">コピー</string>
+    <string name="file_copy_to_xxx_dialog_title">このページをコピー</string>
+    <string name="current_note">現在のノート</string>
+    <string name="other_note">その他のノート</string>
+    <string name="other_note_empty_hint">他にノートはありません。</string>
+    <string name="save">保存する</string>
+    <string name="settings">設定</string>
+    <string name="convert">変換する</string>
+    <string name="backup">バック</string>
+    <string name="restore">復元</string>
+    <string name="info">情報</string>
+    <string name="information">情報</string>
+    <string name="delete">削除する</string>
+    <string name="move">移動する</string>
+    <string name="backup_and_delete">バックアップと削除</string>
+
+    <string name="converting">変換中...</string>
+    <string name="backuping">バックアップ中...</string>
+    <string name="restoring">復元中...</string>
+    <string name="deleting">削除中...</string>
+    <string name="copying">コピー中...</string>
+    <string name="importing">インポート中...</string>
+    <string name="saving">保存中...</string>
+    <string name="loading">読み込み中...</string>
+    <string name="interrupt">割り込み</string>
+    <string name="successful">成功した</string>
+    <string name="fail">失敗します</string>
+    <string name="save_fail">保存に失敗しました。もう一度お試しください</string>
+
+    <!-- restore -->
+    <string name="restore_list_empty_hint">バックアップはありません。</string>
+    <string name="restore_confirm_message">このノートブックを置き換えます。 続行しますか？</string>
+
+    <!-- main page more -->
+    <string name="sort">ソート</string>
+    <string name="preview">プレビュー</string>
+    <string name="import_file">インポート</string>
+    <string name="manage">管理する</string>
+    <string name="star_tag">スタータグ</string>
+    <string name="backup_all">すべてをバックアップ</string>
+    <string name="message_export_total_file">%d ノートブックがバックアップされます</string>
+    <string name="save_file_via">経由でファイルを保存</string>
+    <string name="all_files">すべてのファイル</string>
+    <string name="all_notes">すべてのノートブック</string>
+
+    <string-array name="convert_via_entries">
+        <item>内部メモリ</item>
+        <item>外付けSDカード</item>
+        <item>Dropbox</item>
+        <!--<item>E-Mail</item>-->
+        <item>スリープ画面として</item>
+        <item>電源オフ画面として</item>
+    </string-array>
+
+    <string-array name="convert_via_entries_no_extsd">
+        <item>内部メモリ</item>
+        <item>Dropbox</item>
+        <!--<item>E-Mail</item>-->
+        <item>スリープ画面として</item>
+        <item>電源オフ画面として</item>
+    </string-array>
+
+    <string-array name="import_via_entries">
+        <item>内部メモリ</item>
+        <item>外付けSDカード</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="import_via_entries_no_extsd">
+        <item>内部メモリ</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="backup_via_entries">
+        <item>内部メモリ</item>
+        <item>外付けSDカード</item>
+        <item>Dropbox</item>
+        <!--<item>E-Mail</item>-->
+    </string-array>
+
+    <string-array name="backup_via_entries_no_extsd">
+        <item>内部メモリ</item>
+        <item>Dropbox</item>
+        <!--<item>E-Mail</item>-->
+    </string-array>
+
+    <string-array name="backup_via_local_entries">
+        <item>内部メモリ</item>
+        <item>外付けSDカード</item>
+    </string-array>
+
+    <string-array name="backup_via_local_entries_no_extsd">
+        <item>内部メモリ</item>
+    </string-array>
+
+    <!-- Page Tag Setting -->
+    <string name="add">追加する</string>
+    <string name="tag_list_empty_hint">現在、タグはありません。</string>
+
+    <!-- Note Page Search -->
+    <string name="paste_to">貼り付け...</string>
+    <string name="move_to">へ引っ越す ...</string>
+    <string name="delete_selected_pages_title">選択したページを削除します</string>
+    <string name="delete_selected_pages_hint">選択したページを削除しますか？</string>
+
+    <string name="search_note_not_found_hint">一致が見つかりません。</string>
+
+
+    <!-- Main Page Import -->
+    <string name="import_list_group_header">同じノートブックの%1$dつのバックアップファイルがあります。</string>
+    <string name="import_list_conflict_header">宛先に%1$dつの同一ファイル。</string>
+    <string name="identical_files">同一ファイル</string>
+    <string name="original">元の： </string>
+    <string name="skip">スキップ</string>
+    <string name="replace">交換</string>
+    <string name="delete_backup_confirm">%dつのバックアップファイルを削除しますか？</string>
+
+    <!-- Dropbox -->
+    <string name="check_network">ワイヤレスネットワークを確認してください…</string>
+    <string name="dropbox_login">Dropbox ログイン</string>
+    <string name="dropbox_logout">Dropbox ログアウト</string>
+    <string name="dropbox_upload_success">成功にバックアップされました！</string>
+    <string name="dropbox_download_success">成功にインポートされました！</string>
+    <string name="downloading">ダウンロード中...</string>
+    <string name="uploading">アップロード中...</string>
+    <string name="sync_with_dropbox">Dropboxと同期...</string>
+    <string name="calculating">計算する...</string>
+    <string name="dropbox_free_space">フリー空間</string>
+    <string name="sign_out"><u>サインアウト</u></string>
+    <string name="sign_in"><u>サインイン</u></string>
+    <string name="no_internet_connection">インターネット接続なし</string>
+    <string name="not_logged_in_to_dropbox">Dropboxにログインしていません</string>
+    <string name="set_network"><u>ネットワークをセットアップする</u></string>
+    <string name="not_enough_space">十分なストレージスペースがありません</string>
+    <string name="insufficient_memory_space">十分なメモリ空間</string>
+
+    <!-- Settings -->
+    <string name="layout">レイアウト</string>
+    <string name="name_bar">ネームバー</string>
+    <string name="show_memo_message">ノート名の代わりにテーマのメモを表示する</string>
+    <string name="calibration">較正</string>
+    <string name="horizontal">横</string>
+    <string name="vertical">垂直</string>
+    <string name="pen_calibration">ペン校正</string>
+
+
+    <string name="open_book">本を開く</string>
+    <string name="language">言語</string>
+    <string name="size">サイズ</string>
+    <string name="format">フォーマット</string>
+    <string name="dialog_confirm_yes">はい</string>
+    <string name="dialog_confirm_no">いや</string>
+    <string name="dialog_confirm_later">ちょっと待って</string>
+    <string name="dialog_open_folder">開いたフォルダ</string>
+    <string name="out_of_memory">メモリー不足</string>
+
+    <!-- Information -->
+    <string name="note_name">ノート名</string>
+    <string name="note_size">ノートサイズ</string>
+    <string name="created_time">作成された時間</string>
+    <string name="last_modified_time">最終変更時刻</string>
+    <string name="rename_this_note">このメモの名前を変更</string>
+    <string name="theme_memo">テーマメモ</string>
+    <string name="edit_memo">メモを編集</string>
+
+    <!-- Paper Background -->
+    <string name="edit">編集</string>
+
+    <!-- Paper Background -->
+    <string name="text_input_preview">テキスト入力プレビュー</string>
+
+    <!-- TextBox Style -->
+    <string-array name="text_box_font_size_str_array">
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>22</item>
+        <item>26</item>
+    </string-array>
+
+    <array name="text_box_font_size_array">
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>22</item>
+        <item>26</item>
+    </array>
+
+    <string name="star_tag_lst">スタータグリスト</string>
+
+    <string name="page_tag">ページ %d</string>
+
+    <string name="page_create_time">ページ作成時間：</string>
+
+    <string name="create_new_note_vertical">ストレート</string>
+    <string name="create_new_note_horizontal">横長</string>
+</resources>

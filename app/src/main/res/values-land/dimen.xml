@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="ambilwarna_hsvWidth">240dp</dimen>
+	<dimen name="ambilwarna_hsvHeight">120dp</dimen>
+
+	<!-- Page Background Image Size -->
+	<dimen name="page_background_image_width">186px</dimen>
+	<dimen name="page_background_image_height">135px</dimen>
+</resources>

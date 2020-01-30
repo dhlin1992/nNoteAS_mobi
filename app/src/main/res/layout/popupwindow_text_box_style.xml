@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_default2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ntx.note.export.MySpinner
+                android:id="@+id/sp_text_box_font_size"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/spinner_text_box_font_size_bg"
+                android:entries="@array/text_box_font_size_str_array"
+                android:spinnerMode="dialog"
+                android:textColor="@android:color/black" />
+
+            <utility.ToggleImageButton
+                android:id="@+id/btn_text_box_font_bold"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:src_checked="@drawable/writing_textbox_fontstyle_bold_active"
+                app:src_unchecked="@drawable/writing_textbox_fontstyle_bold" />
+
+            <utility.ToggleImageButton
+                android:id="@+id/btn_text_box_font_italic"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:src_checked="@drawable/writing_textbox_fontstyle_italic_active"
+                app:src_unchecked="@drawable/writing_textbox_fontstyle_italic" />
+
+            <utility.ToggleImageButton
+                android:id="@+id/btn_text_box_font_underline"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:src_checked="@drawable/writing_textbox_fontstyle_underline_active"
+                app:src_unchecked="@drawable/writing_textbox_fontstyle_underline" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_text_color_black"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_pen_color_black" />
+
+            <ImageButton
+                android:id="@+id/btn_text_color_dark_gray"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_pen_color_dark_gray" />
+
+            <ImageButton
+                android:id="@+id/btn_text_color_gray"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_pen_color_gray" />
+
+            <ImageButton
+                android:id="@+id/btn_text_color_light_gray"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_pen_color_light_gray" />
+
+
+            <ImageButton
+                android:id="@+id/btn_text_color_white"
+                style="@style/toolbox_imagebutton_style"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_pen_color_white" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_text_box_style_close"
+            style="@style/text_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@android:string/ok" />
+
+    </LinearLayout>
+
+</FrameLayout>
